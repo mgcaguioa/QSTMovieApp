@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA5EFF12A3B23BD003FE00A /* QSTMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5EFF02A3B23BD003FE00A /* QSTMovieApp.swift */; };
+		FEA5EFF52A3B23C0003FE00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5EFF42A3B23C0003FE00A /* Assets.xcassets */; };
+		FEA5EFF82A3B23C0003FE00A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5EFF72A3B23C0003FE00A /* Preview Assets.xcassets */; };
+		FEA5F01E2A3B24BC003FE00A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F01D2A3B24BC003FE00A /* ListView.swift */; };
+		FEA5F0202A3B24CC003FE00A /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F01F2A3B24CC003FE00A /* DetailsView.swift */; };
+		FEA5F0222A3B250C003FE00A /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0212A3B250C003FE00A /* ListViewModel.swift */; };
+		FEA5F0242A3B251F003FE00A /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0232A3B251F003FE00A /* DetailsViewModel.swift */; };
+		FEA5F0272A3B25B6003FE00A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0262A3B25B6003FE00A /* MovieModel.swift */; };
+		FEA5F0292A3B2738003FE00A /* MoviesRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0282A3B2738003FE00A /* MoviesRepo.swift */; };
+		FEA5F02C2A3BD075003FE00A /* BottomSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F02B2A3BD075003FE00A /* BottomSheetButton.swift */; };
+		FEA5F02E2A3BF7D2003FE00A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F02D2A3BF7D2003FE00A /* RoundedButton.swift */; };
+		FEA5F0312A3BFA1E003FE00A /* DoubleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0302A3BFA1E003FE00A /* DoubleExt.swift */; };
+		FEA5F0332A3C1407003FE00A /* YoutubeVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5F0322A3C1407003FE00A /* YoutubeVideoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA5EFFE2A3B23C0003FE00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA5EFE52A3B23BD003FE00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA5EFEC2A3B23BD003FE00A;
+			remoteInfo = "QST Movie App";
+		};
+		FEA5F0082A3B23C0003FE00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA5EFE52A3B23BD003FE00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA5EFEC2A3B23BD003FE00A;
+			remoteInfo = "QST Movie App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEA5EFED2A3B23BD003FE00A /* QST Movie App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QST Movie App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5EFF02A3B23BD003FE00A /* QSTMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSTMovieApp.swift; sourceTree = "<group>"; };
+		FEA5EFF42A3B23C0003FE00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA5EFF72A3B23C0003FE00A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEA5EFFD2A3B23C0003FE00A /* QST Movie AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QST Movie AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5F0072A3B23C0003FE00A /* QST Movie AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QST Movie AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA5F01D2A3B24BC003FE00A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FEA5F01F2A3B24CC003FE00A /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		FEA5F0212A3B250C003FE00A /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		FEA5F0232A3B251F003FE00A /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		FEA5F0262A3B25B6003FE00A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		FEA5F0282A3B2738003FE00A /* MoviesRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRepo.swift; sourceTree = "<group>"; };
+		FEA5F02B2A3BD075003FE00A /* BottomSheetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetButton.swift; sourceTree = "<group>"; };
+		FEA5F02D2A3BF7D2003FE00A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FEA5F0302A3BFA1E003FE00A /* DoubleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExt.swift; sourceTree = "<group>"; };
+		FEA5F0322A3C1407003FE00A /* YoutubeVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA5EFEA2A3B23BD003FE00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5EFFA2A3B23C0003FE00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5F0042A3B23C0003FE00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA5EFE42A3B23BD003FE00A = {
+			isa = PBXGroup;
+			children = (
+				FEA5EFEF2A3B23BD003FE00A /* QST Movie App */,
+				FEA5EFEE2A3B23BD003FE00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA5EFEE2A3B23BD003FE00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5EFED2A3B23BD003FE00A /* QST Movie App.app */,
+				FEA5EFFD2A3B23C0003FE00A /* QST Movie AppTests.xctest */,
+				FEA5F0072A3B23C0003FE00A /* QST Movie AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA5EFEF2A3B23BD003FE00A /* QST Movie App */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5F02F2A3BFA11003FE00A /* utils */,
+				FEA5F02A2A3BD026003FE00A /* components */,
+				FEA5F0252A3B25A9003FE00A /* data */,
+				FEA5F01A2A3B245B003FE00A /* screens */,
+				FEA5EFF02A3B23BD003FE00A /* QSTMovieApp.swift */,
+				FEA5EFF42A3B23C0003FE00A /* Assets.xcassets */,
+				FEA5EFF62A3B23C0003FE00A /* Preview Content */,
+			);
+			path = "QST Movie App";
+			sourceTree = "<group>";
+		};
+		FEA5EFF62A3B23C0003FE00A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5EFF72A3B23C0003FE00A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEA5F01A2A3B245B003FE00A /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5F01D2A3B24BC003FE00A /* ListView.swift */,
+				FEA5F0212A3B250C003FE00A /* ListViewModel.swift */,
+				FEA5F01F2A3B24CC003FE00A /* DetailsView.swift */,
+				FEA5F0232A3B251F003FE00A /* DetailsViewModel.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		FEA5F0252A3B25A9003FE00A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5F0262A3B25B6003FE00A /* MovieModel.swift */,
+				FEA5F0282A3B2738003FE00A /* MoviesRepo.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		FEA5F02A2A3BD026003FE00A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5F02B2A3BD075003FE00A /* BottomSheetButton.swift */,
+				FEA5F02D2A3BF7D2003FE00A /* RoundedButton.swift */,
+				FEA5F0322A3C1407003FE00A /* YoutubeVideoView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		FEA5F02F2A3BFA11003FE00A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5F0302A3BFA1E003FE00A /* DoubleExt.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA5EFEC2A3B23BD003FE00A /* QST Movie App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA5F0112A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie App" */;
+			buildPhases = (
+				FEA5EFE92A3B23BD003FE00A /* Sources */,
+				FEA5EFEA2A3B23BD003FE00A /* Frameworks */,
+				FEA5EFEB2A3B23BD003FE00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QST Movie App";
+			productName = "QST Movie App";
+			productReference = FEA5EFED2A3B23BD003FE00A /* QST Movie App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA5EFFC2A3B23C0003FE00A /* QST Movie AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA5F0142A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie AppTests" */;
+			buildPhases = (
+				FEA5EFF92A3B23C0003FE00A /* Sources */,
+				FEA5EFFA2A3B23C0003FE00A /* Frameworks */,
+				FEA5EFFB2A3B23C0003FE00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA5EFFF2A3B23C0003FE00A /* PBXTargetDependency */,
+			);
+			name = "QST Movie AppTests";
+			productName = "QST Movie AppTests";
+			productReference = FEA5EFFD2A3B23C0003FE00A /* QST Movie AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA5F0062A3B23C0003FE00A /* QST Movie AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA5F0172A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie AppUITests" */;
+			buildPhases = (
+				FEA5F0032A3B23C0003FE00A /* Sources */,
+				FEA5F0042A3B23C0003FE00A /* Frameworks */,
+				FEA5F0052A3B23C0003FE00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA5F0092A3B23C0003FE00A /* PBXTargetDependency */,
+			);
+			name = "QST Movie AppUITests";
+			productName = "QST Movie AppUITests";
+			productReference = FEA5F0072A3B23C0003FE00A /* QST Movie AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA5EFE52A3B23BD003FE00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FEA5EFEC2A3B23BD003FE00A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FEA5EFFC2A3B23C0003FE00A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FEA5EFEC2A3B23BD003FE00A;
+					};
+					FEA5F0062A3B23C0003FE00A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FEA5EFEC2A3B23BD003FE00A;
+					};
+				};
+			};
+			buildConfigurationList = FEA5EFE82A3B23BD003FE00A /* Build configuration list for PBXProject "QST Movie App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA5EFE42A3B23BD003FE00A;
+			productRefGroup = FEA5EFEE2A3B23BD003FE00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA5EFEC2A3B23BD003FE00A /* QST Movie App */,
+				FEA5EFFC2A3B23C0003FE00A /* QST Movie AppTests */,
+				FEA5F0062A3B23C0003FE00A /* QST Movie AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA5EFEB2A3B23BD003FE00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA5EFF82A3B23C0003FE00A /* Preview Assets.xcassets in Resources */,
+				FEA5EFF52A3B23C0003FE00A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5EFFB2A3B23C0003FE00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5F0052A3B23C0003FE00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA5EFE92A3B23BD003FE00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA5F01E2A3B24BC003FE00A /* ListView.swift in Sources */,
+				FEA5F0202A3B24CC003FE00A /* DetailsView.swift in Sources */,
+				FEA5F0292A3B2738003FE00A /* MoviesRepo.swift in Sources */,
+				FEA5F0332A3C1407003FE00A /* YoutubeVideoView.swift in Sources */,
+				FEA5F02C2A3BD075003FE00A /* BottomSheetButton.swift in Sources */,
+				FEA5F0312A3BFA1E003FE00A /* DoubleExt.swift in Sources */,
+				FEA5F02E2A3BF7D2003FE00A /* RoundedButton.swift in Sources */,
+				FEA5F0222A3B250C003FE00A /* ListViewModel.swift in Sources */,
+				FEA5F0272A3B25B6003FE00A /* MovieModel.swift in Sources */,
+				FEA5F0242A3B251F003FE00A /* DetailsViewModel.swift in Sources */,
+				FEA5EFF12A3B23BD003FE00A /* QSTMovieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5EFF92A3B23C0003FE00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA5F0032A3B23C0003FE00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA5EFFF2A3B23C0003FE00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA5EFEC2A3B23BD003FE00A /* QST Movie App */;
+			targetProxy = FEA5EFFE2A3B23C0003FE00A /* PBXContainerItemProxy */;
+		};
+		FEA5F0092A3B23C0003FE00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA5EFEC2A3B23BD003FE00A /* QST Movie App */;
+			targetProxy = FEA5F0082A3B23C0003FE00A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FEA5F00F2A3B23C0003FE00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA5F0102A3B23C0003FE00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA5F0122A3B23C0003FE00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QST Movie App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSTMovieApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA5F0132A3B23C0003FE00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QST Movie App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSTMovieApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEA5F0152A3B23C0003FE00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QST Movie App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QST Movie App";
+			};
+			name = Debug;
+		};
+		FEA5F0162A3B23C0003FE00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QST Movie App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QST Movie App";
+			};
+			name = Release;
+		};
+		FEA5F0182A3B23C0003FE00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QST Movie App";
+			};
+			name = Debug;
+		};
+		FEA5F0192A3B23C0003FE00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mgcaguioa.QST-Movie-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QST Movie App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA5EFE82A3B23BD003FE00A /* Build configuration list for PBXProject "QST Movie App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5F00F2A3B23C0003FE00A /* Debug */,
+				FEA5F0102A3B23C0003FE00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA5F0112A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5F0122A3B23C0003FE00A /* Debug */,
+				FEA5F0132A3B23C0003FE00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA5F0142A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5F0152A3B23C0003FE00A /* Debug */,
+				FEA5F0162A3B23C0003FE00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA5F0172A3B23C0003FE00A /* Build configuration list for PBXNativeTarget "QST Movie AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA5F0182A3B23C0003FE00A /* Debug */,
+				FEA5F0192A3B23C0003FE00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA5EFE52A3B23BD003FE00A /* Project object */;
+}
